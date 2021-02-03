@@ -24,7 +24,7 @@
                 the_content(sprintf(__('Continue reading %s', 'wordstar'), the_title('<span class="screen-reader-text">', '</span>', false)));
                 wp_link_pages(
                     array(
-                    'before'      => '<div class="page-links xxxx"><span class="page-links-title">' . __('Pages:', 'wordstar') . '</span>',
+                    'before'      => '<div class="page-links"><span class="page-links-title">' . __('Pages:', 'wordstar') . '</span>',
                     'after'       => '</div>',
                     'link_before' => '<span>',
                     'link_after'  => '</span>',
